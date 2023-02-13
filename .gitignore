@@ -1,0 +1,5 @@
+*secret*
+.vscode
+.DS_Store
+.idea
+*_easyjson.go
