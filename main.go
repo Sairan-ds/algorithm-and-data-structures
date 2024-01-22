@@ -1,8 +1,14 @@
 package main
 
-import "github.com/Sairan-ds/algorithm-and-data-structures/selectionSort"
+var repo interface {
+	saveWeather()
+	getWeather()
+}
+
+var weatherProvider interface {
+	getWeather()
+}
 
 func main() {
-	selectionSort.StartSelectionSort()
-	selectionSort.StartSelectionSort()
+
 }

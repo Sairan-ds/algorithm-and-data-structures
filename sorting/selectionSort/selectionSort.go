@@ -1,11 +1,13 @@
-package selectionSort
+package main
 
 import (
 	"fmt"
+	"github.com/Sairan-ds/algorithm-and-data-structures/sorting/helpers"
 )
 
-func StartSelectionSort() {
-	testArray := []int{5, 3, 6, 2, 10}
+// slow
+func main() {
+	testArray := helpers.GenerateSlice(30)
 
 	fmt.Println("Array for selection sort", testArray)
 	fmt.Println("Result of selection sort", selectionSort(testArray))
